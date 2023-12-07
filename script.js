@@ -1,5 +1,19 @@
 // TODO: Select all elements needed
 //    Use the HTML to figure out what classes/ids will work best for selecting each element
+const form = document.querySelector('#form')
+console.log(form)
+const errorsDiv = document.querySelector('.errors')
+console.log(errorsDiv)
+const errorsList = document.querySelector('.errors-list')
+console.log(errorsList)
+const usernameInput = document.querySelector('#username')
+console.log(usernameInput)
+const passwordInput = document.querySelector('#password')
+console.log(passwordInput)
+const passwordConfirmationInput = document.querySelector('#password-confirmation')
+console.log(passwordConfirmationInput)
+const agreeToTermsInput = document.querySelector('#terms')
+console.log(agreeToTermsInput)
 
 // TODO: Create an event listener for when the form is submitted and do the following inside of it.
 //    TODO: Create an array to store all error messages and clear any old error messages
