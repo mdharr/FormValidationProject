@@ -36,7 +36,7 @@ function clearErrors() {
 
 function showErrors(errorMessages) {
     errorMessages.forEach(message => {
-        let listItem = document.createElement('li')
+        const listItem = document.createElement('li')
         listItem.innerText = message
         errorsList.appendChild(listItem)
     });
