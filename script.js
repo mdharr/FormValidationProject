@@ -17,8 +17,9 @@ console.log(agreeToTermsInput)
 
 // TODO: Create an event listener for when the form is submitted and do the following inside of it.
 form.addEventListener('submit', e => {
-    e.stopPropagation();
+    e.preventDefault();
     //    TODO: Create an array to store all error messages and clear any old error messages
+    const errors = [];
     //    TODO: Define the following validation checks with appropriate error messages
     //      1. Ensure the username is at least 6 characters long
     //      2. Ensure the password is at least 10 characters long
