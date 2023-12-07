@@ -32,13 +32,13 @@ function clearErrors() {
         errorsList.removeChild(errorsList.firstChild)
     }
     errorsDiv.classList.remove('show')
-  }
+}
 
-  function showErrors(errorMessages) {
-      errorMessages.forEach(element => {
+function showErrors(errorMessages) {
+    errorMessages.forEach(message => {
         let listItem = document.createElement('li')
-        listItem.innerText = element
+        listItem.innerText = message
         errorsList.appendChild(listItem)
     });
     errorsDiv.classList.add('show')
-  }
+}
